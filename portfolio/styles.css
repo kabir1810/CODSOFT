@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+
+@font-face {
+    font-family: "eurostile";
+    font-weight: normal;
+    src: url(./fonts/EuroStyleNormal.ttf);
+}
+@font-face {
+    font-family: "eurostile";
+    font-weight: bold;
+    src: url(./fonts/EurostileBold.ttf);
+}
+@font-face {
+    font-family: "europa";
+    font-weight: lighter;
+    src: url(./fonts/Europa-Light.ttf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html{
+    height: 100%;
+}
+
+.nav-bar{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 17%;
+    z-index: 10;
+}
+.nav-left{
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    width: 8%;
+    margin:2% 5%;
+}
+.nav-right{
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-btn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    text-decoration: none;
+}
+.btn{
+    width: 100%;
+    height: 40%;
+    outline: none;
+    background-color: white;
+    color: #7510F7;
+    border: 2px solid #7510F7;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #7510F7;
+    color: white;
+}
+.main-content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+    color: #141c3a;
+}
+.heading{
+    font-family: "eurostile", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 1%;
+}
+.short-text{
+    font-family: "europa", sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    margin: 1%;
+}
+.person-vector{
+    position: relative;
+}
+.below-graphics{
+    position: relative;
+    top: 15%;
+}
+.about{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    top: 41%;
+}
+.about-me{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #7510F7;
+    padding: 8% 10%;
+    padding-bottom: 15%;
+}
+.me{
+    font-family: "eurostile", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+}
+.me-text{
+    position: relative;
+    margin: 2% 0;
+    width: 75%;
+    font-family: "europa", sans-serif;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: #fff;
+}
+.skills{
+    position: relative;
+    padding: 2% 5%;
+    top: -30%;
+    width: 60%;
+    background-color: white;
+    box-shadow: 0px 2px 62px 0px #0000001F;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.web{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "eurostile", sans-serif;
+    font-weight: bold;
+    color: #141c3a;
+    font-size: 1.5rem;
+}
+.web-logo{
+    margin: 5% 0%;
+}
+.short-des{
+    font-family: "europa", sans-serif;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    text-align: center;
+    margin: 2% 0;
+}
+.all{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 7% 0;
+}
+.skill-name{
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #141c3a;
+}
+.languages{
+    position: relative;
+    width: 30%;
+    text-align: center;
+}
+.tools{
+    position: relative;
+    width: 30%;
+    text-align: center;
+}
+.owl-carousel .owl-item img{
+    width: 4rem;
+    left: 37%;
+}
+.owl-stage{
+    display: flex;
+}
+.owl-carousel{
+    margin: 10% 0;
+}
+.lang-logo,.tool-logo{
+    position: relative;
+    width: 4rem;
+    height: 3.8rem;
+}
+.line{
+    border-right: 2px solid #d9dee9;
+}
+.tool-logo-text,.lang-logo-text{
+    position: relative;
+    font-family: "europa", sans-serif;
+    font-size: 1.5rem;
+    margin: 5% 0;
+}
+.works{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 130%;
+    background-color: #7510F7;
+}
+.work-heading{
+    font-family: "eurostile", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+}
+.laptop-logo{
+    position: relative;
+    width: 5%;
+    margin-top: 2%;
+}
+.projects{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.project{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin: 3% 2%;
+    height: 23%;
+    border-radius: 1rem;
+    padding: 3% 0;
+    background-color: white;
+    box-shadow: 0px 2px 70px 0px #0000001F;
+}
+.project-img{
+    position: relative;
+    width: 90%;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 62px 0px #0000001F;
+}
+.project-heading{
+    font-family: "europa", sans-serif;
+    color: #141c3a;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 5% 0;
+}
+.project-link{
+    text-decoration: none;
+}
+.project-explore-btn{
+    width: 100%;
+    height: 150%;
+    outline: none;
+    background-color: white;
+    color: #7510F7;
+    border: 2px solid #7510F7;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.project-explore-btn:hover{
+    background-color: #7510F7;
+    color: white;
+}
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 135%;
+}
+.vlogo{
+    position: relative;
+    width: 10%;
+}
+.short-note{
+    font-family: "eurostile", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    width: 25%;
+    text-align: center;
+    margin: 2% 0;
+}
+.social{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.social-handles{
+    position: relative;
+    border: 1px solid #7510F7;
+    border-radius: 50%;
+    width: 100%;
+    margin: 5%;
+    transition: all 0.5s ease;
+}
+.social-handles:hover{
+    background-color: #7510F7;
+}
+.social-handles:hover i{
+    color: #fff;
+}
+.social-handles i{
+    position: relative;
+    color: #7510F7;
+    font-size: 1.7rem;
+    margin: 1rem 1rem;
+    transition: all 0.5s ease;
+}
+.made-with{
+    font-family: "europa", sans-serif;
+    font-size: 1.2rem;
+    margin: 2%;
+}
+
+
+@media (max-width:768px) {
+    .nav-bar{
+        position: absolute;
+        flex-direction: column;
+        margin: 7% 0;
+    }
+    .logo{
+        width: 40%;
+    }
+    .nav-left{
+        width: 100%;
+        padding: 5% 0;
+        top: 15%;
+        justify-content: center;
+    }
+    .nav-right{
+        width: 100%;
+    }
+    .nav-btn{
+        width: 30%;
+        height: 4rem;
+    }
+    .heading{
+        font-size: 3rem;
+        margin: 5% 0;
+    }
+    .below-graphics{
+        width: 80%;
+    }
+    .skills{
+        top: -2rem;
+        width: 75%;
+    }
+    .skill-name{
+        font-size: 1.5rem;
+    }
+    .languages,.tools{
+        width: 37%;
+    }
+    .lang-logo-text,.tool-logo-text{
+        left: 10%;
+        margin: 5% 0;
+    }
+    .works{
+        top: 48rem;
+    }
+    .laptop-logo{
+        width: 20%;
+    }
+    .project{
+        width: 95%;
+        height: 17%;
+    }
+    .footer{
+        top: 69rem;
+    }
+    .vlogo{
+        width: 30%;
+    }
+    .short-note{
+        width: 80%;
+    }
+}
