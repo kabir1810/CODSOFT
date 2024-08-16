@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(255,69,90,1) 0%, rgba(255,140,0,1) 50%, rgba(255,214,91,1) 100%);
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta .btn {
+    background-color: #ff4561;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-buttons .btn,
+.hero-buttons .btn-secondary {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.hero-buttons .btn {
+    background-color: #ff4561;
+}
+
+.hero-buttons .btn-secondary {
+    background-color: #ff8c00;
+}
+
+.services {
+    background: linear-gradient(90deg, rgba(255,69,90,1) 0%, rgba(255,140,0,1) 50%, rgba(255,214,91,1) 100%);
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+
+.service-item {
+    margin: 20px 0;
+}
+
+.about-us {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.our-services {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.service-box {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+}
+
+.service-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
